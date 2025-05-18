@@ -4,9 +4,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/icon', '@nuxt/image', '@nuxtjs/tailwindcss'],
   
-  // Static site generation
+  // Proper static site generation config
   nitro: {
-    preset: 'static'
+    prerender: {
+      crawlLinks: true,
+      routes: ['/']
+    }
   },
   
   app: {
