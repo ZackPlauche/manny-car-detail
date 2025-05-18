@@ -427,8 +427,8 @@
       <div class="absolute inset-0 bg-[#0d2f3e]/90 z-0"></div>
       <div class="absolute inset-0 opacity-10 z-0">
         <NuxtImg 
-          src="/backgrounds/swansway-motor-group-DyiDM013ARs-unsplash.jpg" 
-          alt="Car detailing process" 
+          src="/backgrounds/vlad-grebenyev-7eCBiZgyr4E-unsplash.jpg" 
+          alt="Polished car wheel" 
           class="object-cover object-center h-full w-full"
           format="webp"
           quality="80"

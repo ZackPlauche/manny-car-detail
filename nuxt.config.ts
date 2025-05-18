@@ -4,6 +4,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/icon', '@nuxt/image', '@nuxtjs/tailwindcss'],
   
+  // Static site generation
+  nitro: {
+    preset: 'static'
+  },
+  
   app: {
     head: {
       title: 'Manny Car Detail - Lavagens & Detailing',
@@ -11,7 +16,8 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Serviços premium de lavagem, detailing e proteção para o seu veículo em Coimbra.' }
       ],
       link: [
-        { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css' }
+        { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css' },
+        { rel: 'icon', type: 'image/png', href: '/logo.png' }
       ],
       script: [
         { src: 'https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js' },
@@ -25,6 +31,7 @@ export default defineNuxtConfig({
           });`
         }
       ]
-    }
+    },
+    buildAssetsDir: '/_nuxt/'
   }
 })
