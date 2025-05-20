@@ -521,7 +521,7 @@
           <div class="text-center md:text-right">
             <p class="text-sm text-gray-400">© 2024 Manny Car Detail. Todos os direitos reservados.</p>
             <p class="text-sm text-gray-400">Rua Académico 140, 3045-081 Coimbra, Portugal</p>
-            <p class="text-sm text-gray-400 mt-2">Website built and detailed by <a href="https://www.zackplauche.com" target="_blank" class="text-[#ffe001] hover:underline">Zack Plauché</a> 🧼🚗✨</p>
+            <p class="text-sm text-gray-400 mt-2">Website construído e detalhado por <a href="https://www.zackplauche.com" target="_blank" class="text-[#ffe001] hover:underline">Zack Plauché</a> 🧼🚗✨</p>
           </div>
         </div>
       </div>
